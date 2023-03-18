@@ -10,11 +10,7 @@
     "
   >
     <div style="align-items: center">
-      <img
-        src="http://placeimg.com/480/640/any"
-        alt="Card image cap"
-        style="height: 50vh"
-      />
+      <img :src="book['image']" alt="Card image cap" style="height: 50vh" />
       <div style="margin-top: 50px">
         <h4>{{ book["title"] }}</h4>
         <h6>Author : {{ book["author"] }}</h6>

@@ -17534,20 +17534,20 @@ var _hoisted_2 = {
     "align-items": "center"
   }
 };
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "http://placeimg.com/480/640/any",
-  alt: "Card image cap",
-  style: {
-    "height": "50vh"
-  }
-}, null, -1 /* HOISTED */);
+var _hoisted_3 = ["src"];
 var _hoisted_4 = {
   style: {
     "margin-top": "50px"
   }
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h4", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.book["title"]), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", null, "Author : " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.book["author"]), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", null, "Publisher : " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.book["publisher"]), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", null, "Genre : " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.book["genre"]), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", null, "Published at : " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.book["published"]), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", null, "Genre : " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.book["genre"]), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", null, "ISBN : " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.book["isbn"]), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.book["description"]), 1 /* TEXT */)])])]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: $props.book['image'],
+    alt: "Card image cap",
+    style: {
+      "height": "50vh"
+    }
+  }, null, 8 /* PROPS */, _hoisted_3), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h4", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.book["title"]), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", null, "Author : " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.book["author"]), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", null, "Publisher : " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.book["publisher"]), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", null, "Genre : " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.book["genre"]), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", null, "Published at : " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.book["published"]), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", null, "Genre : " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.book["genre"]), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", null, "ISBN : " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.book["isbn"]), 1 /* TEXT */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.book["description"]), 1 /* TEXT */)])])]);
 }
 
 /***/ }),
